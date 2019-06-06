@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Soo Jin Lee : Web & Graphic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="jquery-fadethis-master/dist/jquery.fadethis.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+</head>
+<body>
+    <section class="header">
+        <header>
+        <div class="desktop-container">
+                
+                <a href="about.html">ABOUT ME</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="index.html#contact">CONTACT</a>
+        </div>    
+        <div class="mobile-container">
+
+                <!-- Top Navigation Menu -->
+
+                <div class="topnav">
+                    <div class="logo">
+                   
+                        <a href="index.html">
+                            <img src="img/logo50px.png" alt="Logo" style="width:50px;"> 
+                        </a>
+                   
+                    </div>
+                  <div class="mobile">
+                  <div id="myLinks">
+                    <a href="about.html">ABOUT ME</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="index.html#contact">CONTACT</a>
+                  </div>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                 </div>    
+                </div>
+                <!-- End smartphone / tablet look -->
+                </div>
+                
+        </header>
+
+    </section>
+<!-- section:Main -->
+
+<div class="sub-menu slide-top">
+    <a href="https://www.instagram.com/soo.portfolio/" target="_blank">Web & Graphic</a>
+    <a href="https://www.instagram.com/soo_lee999/" target="_blank">Photography</a>
+    <a href="#v">Video Assignment</a>
+</div>
+<!-- section:Contents -->    
+<section class="sec-sub-port">
+    <a name="v"><h4 class="slide-bottom">Portfolio</h4></a>
+
+ 
+<div class="youtub">
+ <iframe width="300" height="200" src="https://www.youtube.com/embed/hX2mZ3BjujU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="300" height="200" src="https://www.youtube.com/embed/1yw9iCvTs-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="300" height="200" src="https://www.youtube.com/embed/UMzzM8OOHuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="300" height="200" src="https://www.youtube.com/embed/MKZjQYhmmtw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="300" height="200" src="https://www.youtube.com/embed/X2_-UwPYc_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</section>
+
+<!-- section:Contents -->    
+    
+    <section class="sec-two">
+        <h4><a name="contact">Contact</a></h4>
+        
+        <div class="container">
+                <form action="/action_page.php">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+              
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+        
+
+        
+    </section>
+
+    
+
+<!-- Footer -->       
+
+    <footer>
+          <p> © Soojin Lee Design - All rights reserved.</p>        
+    </footer>
+
+ <!-- Nav  -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+          x.style.display = "none";
+          } else {
+           x.style.display = "block";
+             }
+          }
+     </script>
+
+<!-- FadeThis JQ  -->
+     <script>
+        $(document).ready(function() {
+        $(window).fadeThis({speed: 1000});
+        });
+    </script>
+
+    <script>
+        
+            $(document).ready(function() {
+            $(window).fadeThis({
+            baseName:       "slide-",
+            speed:          500, // <a href="https://www.jqueryscript.net/animation/">Animation</a> speed in milliseconds.
+            easing:         "swing", // Animation easing.
+            offset:         0, // <a href="https://www.jqueryscript.net/tags.php?/Scroll/">Scroll</a> offset, allowing to fire fading a little after or before the element appear.
+            reverse:        true, // Make element disappear again when scrolled out, and fade again when scrolled in.
+            distance:       50, // Element distance to its emplacement, before animation.
+            scrolledIn:     null, // Function to call when the element come in viewport.
+            scrolledOut:    null // Function to call when the element go out of the viewport.
+            });
+            });
+            </script>
+            
+</body>
+</html>
