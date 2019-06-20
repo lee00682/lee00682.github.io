@@ -212,13 +212,15 @@ table {
   background-color: #93d8ee; 
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 18px 30px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   width: 150px;
   margin-bottom:2em;
 
+    
+     
 }
 
    .social{
@@ -466,6 +468,11 @@ table {
       padding-bottom: 3em;
     }
 
+/*********UX/UI********/
+
+.uxlist img{
+    text-align: center;
+}
 
 
 
@@ -670,24 +677,62 @@ img.hover-shadow {
 
 
 
+/******** Media : Max 449  ********/
+@media screen and (max-width:449px){
+
+
+  .intro h4{
+    margin-top:1.5rem;
+    font-size: 15px;
+  }
+
+
+  .intro p{
+    font-size: 15px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding:0 1.5rem;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    line-height: 150%;
+    
+  }
+
+  .sec-two{
+    
+    padding: 0 .5em 2em .5em; 
+    background-color: #ececec;
+   }
+
+
+}
 
 
 
-
-
-
-
-
-
- /******** Media : Min 480  ********/
- @media screen and (min-width: 500px) and (max-width: 800px) {
+ /******** Media : Min 450  ********/
+ @media screen and (min-width: 450px) and (max-width: 800px) {
  
     .mobile-container {
         max-width: 800px;
       
       }
 
-    
+    .intro h4{
+      margin-top:1.5rem;
+        
+      }  
+
+    .intro p{
+      font-size: 15px;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      padding:0 1.5rem;
+      text-align: center;
+      font-family: 'Comfortaa', cursive;
+      line-height: 150%;
+      
+    }
+
     .graphic{
       
         background-image: url(img/line-t1.png);
