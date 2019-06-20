@@ -710,7 +710,11 @@ img.hover-shadow {
 
 
  /******** Media : Min 450  ********/
- @media screen and (min-width: 450px) and (max-width: 800px) {
+ @media screen and (min-width: 300px) and (max-width: 800px) {
+
+    .sub-menu slide-top{
+         
+     }
  
     .mobile-container {
         max-width: 800px;
@@ -788,6 +792,7 @@ img.hover-shadow {
       max-width: 800px;
           
       margin: 1.5em 0 0 1em;
+      line-height: 3rem;    
         
   
     }
